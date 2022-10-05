@@ -42,7 +42,7 @@
 
 .carouselPanel
 {
-    height: 200px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -51,17 +51,33 @@
 }
 
 .carouselImg{
-    height: 120px;
-    width: 150px;
-    border-radius: 15%;
-    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carouselImg a img
+{
+    height: 10em;
+    height: 10em;
 }
 
 .mainContent
 {
     padding: 1em;
-    height: 200px;
+    height: 300px;
     border: 1px solid green;
+}
+
+.titleMain
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    height: 2em;
+    justify-content: center;
+    width: 100%;
 }
 
 .products
@@ -73,19 +89,46 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    background: #256D85;
 }
 
-.products .item{
-    margin: auto;
+.item{
+    flex-direction: column;
+    display: flex;  /* utilizamos estas propiedades para centrar*/
+    align-items: center; /*vertical*/
+    justify-content: center; /*horizontal*/
     border-radius: 1em;
     border: 1px solid blue;
     height: 90%;
     width: 30%;
 }
 
+input
+{
+    margin: .5em; /*agregamos separación*/
+    width: 50%;
+    height: 1.8em;
+    border: .5px solid white;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    transition: .4s;
+}
+
+input:hover
+{
+    background: white;
+    color: #256D85;
+}
+
+
 img{
-    height: 15em;
-    width: 15em;
+    border-radius: 10%;
+    border: 1px solid red;
+    height: 10em;
+    width: 10em;
 }
 
 
