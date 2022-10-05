@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.headerDiv
+{
+    height: 5em;
+    width: 100%;
+    background-color: #256D85;
+}
+
+.title
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+}
+
+.logo
+{
+    font-size: 40px;
+    color: #E14D2A;
+}
+
+.title .titleName
+{
+    font-size: 36px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    color: #FD841F;
+}
+
+.shopping-Cart
+{
+    background-image: url("./static/images/cart-shopping-solid.svg");
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+}
+
+.carouselPanel
+{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+}
+
+.carouselImg{
+    height: 120px;
+    width: 150px;
+    border-radius: 15%;
+    border: 1px solid;
+}
+
+.mainContent
+{
+    padding: 1em;
+    height: 200px;
+    border: 1px solid green;
+}
+
+.products
+{
+    margin: auto;
+    height: 90%;
+    width: 90%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.products .item{
+    margin: auto;
+    border-radius: 1em;
+    border: 1px solid blue;
+    height: 90%;
+    width: 30%;
+}
+
+img{
+    height: 15em;
+    width: 15em;
+}
+
+
+
